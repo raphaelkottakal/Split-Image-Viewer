@@ -12,7 +12,7 @@
 
 		var $this = this;
 
-		$this.css({ 'max-width': '360px', background: 'red' });
+		$this.css({ 'max-width': '360px' });
 
 		var settings = $.extend({
 			maxWidth: 360,
@@ -95,7 +95,5 @@
 		return $this;
 
 	}
-
-	$('.target').spliter(object);
 
 })(jQuery);
